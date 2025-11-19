@@ -106,7 +106,7 @@ int main() {
 	else {
 		if (cmd_index == 9) {
 			if (i > 3) {
-				printf("cd: too many arguments\n");
+				printf("-rsh: cd: too many arguments\n");
 				continue;
 			} else {
 				chdir(argv[1]);
